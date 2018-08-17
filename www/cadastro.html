@@ -1,0 +1,160 @@
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Your app title -->
+    <title>FinanceApp</title>
+    <!-- Path to Framework7 iOS CSS theme styles-->
+    <link rel="stylesheet" href="../bower_components/framework7/dist/css/framework7.min.css">
+    <!-- Path to Framework7 iOS related color styles -->
+    <link rel="stylesheet" href="../bower_components/framework7/dist/css/framework7.md.min.css">
+    <!-- Icones -->
+    <link rel="stylesheet" href="../bower_components/framework7-icons/css/framework7-icons.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="../bower_components/framework7/dist/css/Style.css">
+</head>
+
+<!-------------------------------------------------------------CORPO DA PÁGINA---------------------------------------------------------------------->
+
+<body class="color-theme-green">
+
+    <div id="app">
+        <div class="view view-main">
+            <div data-name="cadastro" class="page">
+
+                <div class="page-content" style="background-image: url(img/bg.jpg);">
+
+                    <!--SETA VOLTAR-->
+                    <a class="link back" href="/indexlogin/">
+          <i class="f7-icons seta-voltar">chevron_left</i>
+          </a>
+
+                    <div class="block">
+                        <div class="login-screen-title"><img src="img/logo.png" class="logo-login-cadastro"></div>
+
+                        <div class="list no-hairlines-md">
+                        
+                        <form  class="Form-Cadastro-Login"> 
+                            
+                            
+
+                            <ul>
+                                <br>
+
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">E-mail:</div>
+                                        
+                                        <div class="item-input-wrap ">
+                                            <input type="email" name="email" id="email" placeholder="...">
+                                        </div>
+                                    
+                                    </div>
+                                </li>
+
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Senha:</div>
+                                        
+                                        <div class="item-input-wrap">
+                                            <input type="password" name="senha" id="senha">
+                                        </div>
+                                    
+                                    </div>
+                                </li>
+
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Nome:</div>
+                                        
+                                        <div class="item-input-wrap">
+                                            <input type="text" name="nome" id="nome">
+                                        </div>
+                                    
+                                    </div>
+                                </li>
+
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Sobrenome:</div>
+                                        
+                                        <div class="item-input-wrap">
+                                            <input type="text" name="sobrenome" id="sobrenome">
+                                        </div>
+                                    
+                                    </div>
+                                </li>
+
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Sexo:</div>
+                                        
+                                        <div class="item-input-wrap">
+                                            <select name="sexo" id="sexo">
+                         <option value="masculino">Masculino</option>
+                         <option value="feminino">Feminino</option>
+                                            </select>
+                                        </div>
+                                    
+                                    </div>
+                                </li>
+
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label"><p class="input-titulo">Data de nascimento:</p></div>
+                                        
+                                        <div class="item-input-wrap">
+                                            <input type="date" name="data_de_nascimento" id="data_de_nascimento">
+                                        </div>
+                                            
+                                    </div>
+                                        
+                                </li>
+                                        
+                                <br>
+                            </ul>
+                            
+                            
+                        </form>
+                        </div>
+
+<br>
+
+
+                        <div class="row">
+
+                            <div class="col-25"> </div>
+                            <div class="col-35"><a href="/home/" class="col button button-fill button-small">Cadastrar</a> </div>
+                            <div class="col-25"> </div>
+
+
+                        </div>
+                        <br><br>
+
+                        <div class="block-footer">
+        
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-----------------------------------------------------------INSTÂNCIAS-------------------------------------------------------------------------->
+
+
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="../bower_components/framework7/dist/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="../bower_components/framework7/dist/js/my-app.js"></script>
+
+</body>
+
+</html>

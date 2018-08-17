@@ -1,0 +1,111 @@
+
+
+label-Item{
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+.Footer{
+    
+    font-size: 20px
+    font-family: serif;
+    color: white !important;
+    text-align: center !important;
+    position: absolute !important;
+    
+    
+    
+    
+}
+
+.block{
+    margin-top: 0px !important;
+    border: 3px solid #4caf50;
+    left: 50%;
+    top: 50%;
+    width: 90% !important;
+    height: auto !important;
+    position: absolute !important;
+    transform: translate(-50%, -50%);
+    border-radius: 30px 0px 30px 0px;
+    background-color:#3e3e3e;
+}
+
+.Input_email, .Input_senha{
+    
+    border: 1px solid white;
+    border-radius: 50px; !important;
+    color: white !important;
+    background-color: white !important;
+    padding-left: 5% !important;
+    
+    
+    
+    left: 50%;
+    top: 50%;
+     transform: translate(-50%, -50%);
+    
+}
+
+
+.logo-login-cadastro{
+    max-width:150px;
+    max-height:150px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.seta-voltar{
+    
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+
+
+.logo-barra-lateral{
+    
+    max-width:150px;
+    max-height:150px;
+
+    background-color: transparent;
+    border-color: transparent;
+    
+    position:relative;
+    bottom: 30px;
+       
+}
+
+.aba-barra-lateral{
+    
+    text-decoration:inherit;
+    font-family: sans-serif;
+	margin-left: 70px;
+    margin-right: 5px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    
+        
+}
+
+
+
+
+.Form-Cadastro-Login {
+    
+    background-color: white;
+    border-color: white;
+    border-style:solid;
+    opacity:1.0;
+    
+}
+
